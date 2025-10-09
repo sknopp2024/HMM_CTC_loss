@@ -1,3 +1,2 @@
-# Thesis: Interpreting the Connectionist Temporal Classification Loss as the Likelihood of a Hidden Markov Model and Benchmarking Parallel Implementations that Use TensorFlow
+# Python Code for Matrix Multiplication and Nested For Loops
 
-This repository presents the python Code for the thesis.
