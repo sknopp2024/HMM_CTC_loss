@@ -3,9 +3,9 @@
 This repository contains the Python code developed for the thesis.  
 The work is organized into the following directories:
 
-- `benchmark_HMMs`
-- `pHMM`
-- `CTC_HMM`
+- `benchmark_HMMs` – Implementation and evaluation of classical Hidden Markov Models (HMMs) used in genome annotation. Different computational strategies are compared to optimize runtime and GPU resource usage.
+- `pHMM` - Parallelized implementation of Profile Hidden Markov Models (pHMMs).
+- `CTC_HMM` – Development of a method for efficient computation of the Connectionist Temporal Classification (CTC) loss based on a probabilistic model. 
 
 Each directory contains the code and results related to a specific part of the thesis.
 
