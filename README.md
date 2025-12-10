@@ -6,7 +6,6 @@ The work is organized into the following directories:
 - `benchmark_HMMs`
 - `pHMM`
 - `CTC_HMM`
-- `stability_investigations`
 
 Each directory contains the code and results related to a specific part of the thesis.
 
