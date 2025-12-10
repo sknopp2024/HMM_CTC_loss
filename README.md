@@ -10,6 +10,19 @@ The work is organized into the following directories:
 
 Each directory contains the code related to a specific part of the thesis.
 
+
+### Documentation (`/docs`)
+
+The `/docs` directory contains supplementary materials for this repository:
+
+-  a concise summary of the project's purpose and contents.
+-  additional mathematical background and implementation-related information for each directory of the repository.
+
+These documents provide deeper insight into the theoretical and technical foundations of the project.
+
+
+
+
 ### File naming conventions
 
 - Files starting with `_` contain helper **functions** or **modules**.
