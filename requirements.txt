@@ -1,0 +1,8 @@
+# Python version
+# Python>=3.10.12
+
+tensorflow==2.19.0
+tensorflow-probability==0.25.0
+numpy==1.26.4
+matplotlib==3.8.0
+gputil==1.4.0
