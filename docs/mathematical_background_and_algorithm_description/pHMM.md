@@ -1,6 +1,3 @@
-<br> <br>
-
-
 ## Profile HMMs
 
 A **profile Hidden Markov Model (pHMM)** is an extension of the standard Hidden Markov Model (HMM), commonly used in bioinformatics and sequence analysis. Like a traditional HMM, a pHMM includes:
