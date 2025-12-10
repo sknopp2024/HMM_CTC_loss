@@ -16,10 +16,11 @@ Each directory contains the code related to a specific part of the thesis.
 - Files starting with `hpc_` are intended to be run on an **HPC cluster**.
 
 
+\n
+\n
 
 
-
-### CTC Loss Computation using CRF
+## CTC Loss Computation using CRF
 
 Several implementations of the Conditional Random Fields (CRFs) are compared for computing the Connectionist Temporal Classification (CTC) loss.  
 The performance is benchmarked against the TensorFlow baseline `tf.nn.ctc_loss()` (referred to as **TensorFlow CTC Loss Function**), which serves as a reference.
