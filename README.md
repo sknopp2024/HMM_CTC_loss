@@ -16,8 +16,7 @@ Each directory contains the code related to a specific part of the thesis.
 - Files starting with `hpc_` are intended to be run on an **HPC cluster**.
 
 
-\n
-\n
+<br><br>
 
 
 ## CTC Loss Computation using CRF
