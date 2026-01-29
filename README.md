@@ -1,6 +1,20 @@
 # Interpreting the Connectionist Temporal Classification Loss as the Likelihood of a Hidden Markov Model and Benchmarking Parallel Implementations that Use TensorFlow
 
-This repository contains the Python code developed for the thesis.  
+This repository contains the code for my Master's thesis, focused on efficient GPU-accelerated implementations of probabilistic sequence models (HMM, pHMM, CTC).
+The goal is to optimize runtime and resource usage while enabling scalable analysis of sequencing data.
+
+### Requirements
+
+This project requires Python 3.10.12 and the packages listed in `requirements.txt`. Install them with:
+
+```bash
+pip install -r requirements.txt
+``` 
+
+
+
+### Repository Structure
+
 The work is organized into the following directories:
 
 - `benchmark_HMMs` – Implementation and evaluation of classical Hidden Markov Models (HMMs) used in genome annotation. Different computational strategies are compared to optimize runtime and GPU resource usage.
@@ -20,9 +34,29 @@ The `/docs` directory contains supplementary materials for this repository:
 These documents provide deeper insight into the theoretical and technical foundations of the project.
 
 
-### Requirements
 
-This project requires Python 3.10.12 and the packages listed in `requirements.txt`. Install them with:
+### HMM Benchmark Results (Example Results)
 
-```bash
-pip install -r requirements.txt
+The following plots show the performance of different implementations of classical Hidden Markov Models (HMMs) used in genome annotation.  
+They compare runtime, GPU utilization, and GPU memory usage for the evaluated approaches.
+
+<table>
+  <tr>
+    <td>
+      <img src="benchmark_HMMs/results/hpc_compare_time_title.png" width="500" />
+      <p align="center">Average Computational Time for different HMM implementations</p>
+    </td>
+    <td>
+      <img src="benchmark_HMMs/results/hpc_compare_gpu_title.png" width="500" />
+      <p align="center">GPU utilization for different HMM implementations</p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="benchmark_HMMs/results/hpc_compare_ram_title.png" width="500" />
+      <p align="center">GPU Memory usage comparison for different HMM implementations</p>
+    </td>
+  </tr>
+</table>
+
+<br> 
