@@ -17,9 +17,9 @@ pip install -r requirements.txt
 
 The work is organized into the following directories:
 
-- `benchmark_HMMs` – Implementation and evaluation of classical Hidden Markov Models (HMMs) used in genome annotation. Different computational strategies are compared to optimize runtime and GPU resource usage.
-- `pHMM` - Parallelized implementation of Profile Hidden Markov Models (pHMMs).
-- `CTC_HMM` – Development of a method for efficient computation of the Connectionist Temporal Classification (CTC) loss based on a probabilistic model. 
+- [benchmark_HMMs](benchmark_HMMs) – Implementation and evaluation of classical Hidden Markov Models (HMMs) used in genome annotation. Different computational strategies are compared to optimize runtime and GPU resource usage.
+- [pHMM](pHMM) - Parallelized implementation of Profile Hidden Markov Models (pHMMs).
+- [CTC_CRF](CTC_CRF) – Development of a method for efficient computation of the Connectionist Temporal Classification (CTC) loss based on a probabilistic model. 
 
 Each directory contains the code and results related to a specific part of the thesis.
 
@@ -28,12 +28,12 @@ Each directory contains the code and results related to a specific part of the t
 
 The `/docs` directory contains supplementary materials for this repository:
 
--  abstract.
--  additional mathematical background and implementation-related information for each directory of the repository.
+-  [Abstract (PDF)](docs/abstract.pdf)
+-  [Mathematical Background and Algorithm Descriptions](docs/mathematical_background_and_algorithm_description/)
 
 These documents provide deeper insight into the theoretical and technical foundations of the project.
 
-
+<br>
 
 ### HMM Benchmark Results (Example Results)
 
